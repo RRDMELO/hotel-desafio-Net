@@ -17,5 +17,34 @@ O seu programa deverá cálcular corretamente os valores dos métodos da classe 
 
 ![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
 
+
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+As classes e funções ausentes foram implementadas, e um menu foi criado para exibição dos dados da Reserva. O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Conceitos Utilizados
+
+### List - Count, Add
+- **Count**: Obtém a quantidade de elementos em uma lista.
+- **Add**: Adiciona elementos a uma lista.
+
+### Do While
+- Executa um bloco de código ao menos uma vez e continua enquanto a condição for verdadeira.
+
+### Classes, Atributos e Métodos
+- **Classes**: Estruturas que permitem criar objetos com propriedades e comportamentos específicos.
+- **Atributos**: Variáveis que armazenam o estado de um objeto.
+- **Métodos**: Funções que definem os comportamentos de um objeto.
+
+### Exception, Try Catch
+- **Exception**: Trata erros que ocorrem durante a execução do programa.
+- **Try Catch**: Captura e trata exceções.
+
+### Operações Matemáticas com Decimal
+- Realiza cálculos precisos com números decimais, como o cálculo do valor da diária.
+
+### Condicionais
+- Executa diferentes blocos de código com base em condições específicas:
+  - **if**: Executa um bloco de código se a condição for verdadeira.
+  - **else if**: Testa múltiplas condições.
+  - **else**: Executa um bloco de código se todas as condições anteriores forem falsas.
+  - **switch**: Seleciona um bloco de código entre várias opções.
