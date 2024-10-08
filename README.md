@@ -48,3 +48,37 @@ As classes e funções ausentes foram implementadas, e um menu foi criado para e
   - **else if**: Testa múltiplas condições.
   - **else**: Executa um bloco de código se todas as condições anteriores forem falsas.
   - **switch**: Seleciona um bloco de código entre várias opções.
+
+### Testes Unitários
+
+#### Framework
+Os testes unitários foram implementados utilizando o **xUnit**, um dos frameworks de teste mais populares para .NET. As dependências incluem:
+- `xunit`
+- `xunit.runner.visualstudio`
+- `Microsoft.NET.Test.Sdk`
+
+#### Testes de Validação
+Foram adicionados testes de validação para verificar se as propriedades das classes estão corretas e se os construtores das classes `Pessoa` e `Suite` funcionam conforme esperado.
+
+#### Testes de Retorno de Registros
+Foram adicionados testes para garantir que os métodos que retornam informações, como `NomeCompleto` em `Pessoa` e os detalhes da `Suite`, estejam funcionando corretamente.
+
+### Estrutura dos Testes
+
+#### Arquivo `Tests.cs`
+- **PessoaTests**: Testes para validar a classe `Pessoa`.
+  - `TestNomeCompletoSemSobrenome`: Valida o retorno do nome completo sem sobrenome.
+  - `TestNomeCompletoComSobrenome`: Valida o retorno do nome completo com sobrenome.
+  - `TestPropriedades`: Valida a definição das propriedades `Nome` e `Sobrenome`.
+
+- **SuiteTests**: Testes para validar a classe `Suite`.
+  - `TestSuitePropriedades`: Valida a definição das propriedades `TipoSuite`, `Capacidade` e `ValorDiaria`.
+  - `TestSuiteConstrutorSemParametros`: Valida o comportamento do construtor sem parâmetros.
+  - `TestSuiteConstrutorComParametros`: Valida o comportamento do construtor com parâmetros.
+
+### Executando os Testes
+
+Para executar os testes, use o comando:
+
+```bash
+dotnet test DesafioProjetoHospedagem.csproj
